@@ -1,5 +1,7 @@
 The authors of the **Maize Whole Plant Image Dataset** discussed the significance of silks in maize, emphasizing their role in pollen collection and grain number determination, particularly under water deficit conditions. They noted that while silk growth is crucial for drought tolerance in maize, phenotyping it efficiently for genetic analyses is challenging.
 
+ДОБВИТЬ ПРО ДОПЫАЙЛ
+
 The authors presented a reproducible pipeline they had developed for tracking ear and silk growth in hundreds of plants daily. This pipeline relied on an ear detection algorithm, which controlled a robotic camera for capturing detailed images of ears and silks. They detailed the six steps involved in the pipeline:
 
 In step 1, the authors acquired RGB color images of each plant from multiple views daily using the PHENOARCH platform.
