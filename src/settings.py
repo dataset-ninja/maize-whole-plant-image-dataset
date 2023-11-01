@@ -57,10 +57,12 @@ PAPER: Optional[
     Union[str, List[str], Dict[str, str]]
 ] = "https://plantmethods.biomedcentral.com/articles/10.1186/s13007-017-0246-7"
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
-REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = "https://github.com/openalea/eartrack"
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"GitHub":"https://github.com/openalea/eartrack"}
 
 CITATION_URL: Optional[str] = "https://zenodo.org/record/1002675/export/hx"
 AUTHORS: Optional[List[str]] = ["Nicolas Brichet", "Llorenç Cabrera-Bosquet"]
+AUTHORS_CONTACTS: Optional[List[str]] = ["llorenc.cabrera-bosquet@inra.fr"]
+
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "INRAE"
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://www.inrae.fr/en"
@@ -114,6 +116,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT
