@@ -1,6 +1,6 @@
 Dataset **Maize Whole Plant Image** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/sgswxwm1h7vgjw7f4f7bs/maize-whole-plant-image-DatasetNinja.tar?rlkey=7wh5tw03ovcq9593ni4a7g53g&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzE5MDVfTWFpemUgV2hvbGUgUGxhbnQgSW1hZ2UvbWFpemUtd2hvbGUtcGxhbnQtaW1hZ2UtRGF0YXNldE5pbmphLnRhciIsICJzaWciOiAiTzQ3V3lPZTBFQlJraVJBTlFCWUptWFg4b0F6eGRHSXVTNlpXZk5pVjNyMD0ifQ==)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
